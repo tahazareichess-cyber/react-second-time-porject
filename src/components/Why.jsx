@@ -1,0 +1,37 @@
+
+function Why (){
+
+    return(
+        <section className="why">
+            <div className="why-header">
+                <img src="/images/illustration-why-choose-us.png" alt=""/>
+                <h2>چرا پارس‌پک؟</h2>
+                <p>پارس‌پک، پیشرو در خدمات ابری ایران، با ۱۶ سال سابقه درخشان و نوآورانه در این صنعت، زیرساختی قدرتمند را برای کسب‌وکار شما فراهم می‌کند. ما به بیش از ۲۰۰ هزار کاربر فعال، با به‌روزترین سخت‌افزارها و پشتیبانی متخصصانه، خدماتی پایدار و مطمئن ارائه می‌دهیم.</p>
+            </div>
+            <div className="why-cards">
+                <article className="why-card">
+                    <img src="/images/sixteen-year.png" alt=""/>
+                    <h2>۱۶ سال سابقه درخشان</h2>
+                    <p>از سال ۱۳۸۸ با جدیدترین نوآوری‌ها همراه کسب‌وکار شما بوده‌ایم.</p>
+                </article>
+                <article className="why-card">
+                    <img src="/images/public.png" alt=""/>
+                    <h2>جامعه ۲۰۰ هزار نفری</h2>
+                    <p>بیش از ۲۰۰ هزار کاربر و کسب‌وکار فعال، سال‌های پی‌درپی به ما اعتماد کرده‌اند.</p>
+                </article>
+                <article className="why-card">
+                    <img src="/images/cloud-tree.png" alt=""/>
+                    <h2>پیشگام در فضای ابری</h2>
+                    <p>اولین و معتبرترین ارائه‌دهنده خدمات ابری در ایران با ارائه راهکارهای نوآورانه</p>
+                </article>
+                <article className="why-card">
+                    <img src="/images/gear.png" alt=""/>
+                    <h2>سخت‌افزارهای پیشرفته</h2>
+                    <p>ارائه محصولات با به‌روزترین و قدرتمندترین سخت‌افزارهای ابری دنیا</p>
+                </article>
+            </div>
+        </section>
+    );
+}
+
+export default Why
